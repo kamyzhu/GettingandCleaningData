@@ -39,5 +39,5 @@ names(ext) <- gsub("BodyBody","Body",names(ext))
 
 #5. Output the average of each variable for each group
 ave <- ext %>% group_by(activity, subject) %>% 
-  summarize_all("mean")
+  summarize_all(mean)
 write.table(ave, file="./output.txt", row.name=FALSE)
