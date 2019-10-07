@@ -43,14 +43,11 @@ There are 66 variables in total.
 
 Average Calculation 
 ===================
-The average of each variable for each activity and each subject was calculated and then stored in the dataset 'output.txt'.
+The average of each variable for each activity and each subject was calculated and then written in the dataset 'output.txt'.
 
 Attribute Information
 =====================
 For each record in the dataset it is provided:
 - activity: its activity label
 - subject: an identifier of the subject who carried out the experiment
-- attributes representing the average of a specific meansurement of a specific signal: 
-  '.mean' is used to denote meansurement on mean
-  '.std' is usd to denote measurement on standard deviation
-  '.[XYZ]' is used to denote signal in the X/Y/Z direction
+- 66 attributes representing the average of a specific meansurement (mean/std) of each signal
